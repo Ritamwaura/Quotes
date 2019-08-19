@@ -2,7 +2,6 @@
 This project help the user add or delete quotes and also delete them as well
 ## live link
 https://github.com/Ritamwaura/Quotes.git
-##screenshort
 
 ## Development server
 
