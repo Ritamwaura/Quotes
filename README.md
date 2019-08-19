@@ -3,8 +3,7 @@ This project help the user add or delete quotes and also delete them as well
 ## live link
 
 https://ritamwaura.github.io/Quotes/
-## sreenshot
-file:///home/rita/Pictures/quotessss.png
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
