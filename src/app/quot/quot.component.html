@@ -1,12 +1,16 @@
-
-<div>
-  <h1>Quotes to trust</h1>
-  <hr>
-  <ul>
-    <div *ngFor='let quote of quotes; let i = index'>
-      <li >{{quote.name}}</li>
-      <button (click)='toggleDesription(i)'>Toggle Description</button>
-      <app-quote-details *ngIf='quote.showDescription' [quote]='quote'></app-quote-details>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor='let quote of quotes; let i = index'>
+      <div class="card">
+        <div class="card-header">
+          Quote {{quote.id}}
+        </div>
+        <div class="card-body">
+          <p class="card-text">{{quote.name}}</p>
+          <p class="btn btn-primary" (click)='toggleDescription(i)'>Toggle Description</p>
+          <app-quote-details *ngIf='quote.showDescription'[quote]='quote' (wantToDelete)='removeQuote($event, i)'></app-quote-details>
+        </div>
+      </div>
     </div>
-  </ul>
+  </div>
 </div>

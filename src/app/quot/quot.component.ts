@@ -13,7 +13,7 @@ export class QuotComponent implements OnInit {
     new Quote(2,'kkkkkkkk','llllllllll')
   ];
 
-  toggleDesription(index){
+  toggleDescription(index){
     this.quotes[index].showDescription=!this.quotes[index].showDescription;
   }
 
