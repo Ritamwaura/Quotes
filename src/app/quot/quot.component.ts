@@ -10,6 +10,8 @@ export class QuotComponent implements OnInit {
 
   quotes: Quote[]=[
     new Quote(1,'Albert Einstein','I have no special talent. I am only passionately curious.',new Date(2018,7,13)),
+    new Quote(2,'Rita Brittney','Love is powerful',new Date(2018,7,13)),
+    new Quote(2,'Rita Brittney','Love is powerful',new Date(2018,7,13)),
     new Quote(2,'Rita Brittney','Love is powerful',new Date(2018,7,13))
   ];
 
