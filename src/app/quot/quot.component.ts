@@ -9,8 +9,8 @@ export class QuotComponent implements OnInit {
   title = 'quotes to trust';
 
   quotes: Quote[]=[
-    new Quote(1,'Albert Einstein','I have no special talent. I am only passionately curious.','iiiiiiiiiii'),
-    new Quote(2,'kkkkkkkk','llllllllll','mmmmmmmmmmm')
+    new Quote(1,'Albert Einstein','I have no special talent. I am only passionately curious.'),
+    new Quote(2,'kkkkkkkk','llllllllll')
   ];
 
   toggleDesription(index){
