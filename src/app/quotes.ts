@@ -1,6 +1,10 @@
-export class Quotes {
-  id:number;
-  name:string;
-  author:string;
-  description:string;
+export class Quote {
+  showDescription: boolean;
+  like: number;
+  dislike: number;
+  constructor(public id: number,public author: string,public name: string,public description: string){
+    this.showDescription=false;
+    this.like=0;
+    this.dislike=0;
+  }
 }
