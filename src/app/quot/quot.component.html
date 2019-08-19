@@ -2,9 +2,6 @@
   <div class="row">
     <div class="col-md-4" *ngFor='let quote of quotes; let i = index'>
       <div class="card">
-        <div class="card-header">
-          Quote {{quote.id}}
-        </div>
         <div class="card-body">
           <p class="card-text">{{quote.name}}</p>
           <p class="btn btn-primary" (click)='toggleDescription(i)'>Toggle Description</p>
